@@ -54,6 +54,7 @@ elBtn.addEventListener ("click", function(evt) {
     }
   
   elOutput.textContent = `Siz ${univ} ga ${massage}`
+  elInput.value = null;
 
 })
 

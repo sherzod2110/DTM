@@ -23,6 +23,7 @@
 
 .wrappper__form {
   margin-top: 100px;
+  position: relative;
 }
 
 .wrapper__massage {
@@ -32,3 +33,18 @@
   color: rgb(72, 72, 72);
 }
 
+.label {
+  position: absolute;
+  left: 135px;
+  font-weight: bold;
+  color: rgb(105, 105, 105);
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 0 5px;
+  pointer-events: none;
+} 
+
+.form__input:focus ~ label {
+  top: -14px;
+  background-color: #fff;
+}
